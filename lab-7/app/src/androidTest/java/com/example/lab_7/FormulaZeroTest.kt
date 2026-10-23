@@ -87,7 +87,7 @@ class FormulaZeroTest {
 
         // verify driver is cleared
         composeTestRule
-            .onNodeWithTag("Kerem Santoso")
+            .onNodeWithText("Kerem Santoso")
             .assertDoesNotExist()
 
 
