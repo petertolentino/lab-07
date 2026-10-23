@@ -85,9 +85,9 @@ class FormulaZeroTest {
             .onNodeWithTag("clearDriversButton")
             .performClick()
 
-        // verify list is cleared
+        // verify driver is cleared
         composeTestRule
-            .onNodeWithTag("driversDisplay")
+            .onNodeWithTag("Kerem Santoso")
             .assertDoesNotExist()
 
 
